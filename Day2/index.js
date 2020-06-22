@@ -17,7 +17,7 @@
 
 // Ex3
 // a/
-// for (let a = 0; a < 7; a++) {console.log(a)}
+// for (let a = 0; a <= 7; a++) {console.log(a)}
 // b/ 
 // let n = Number(prompt('Enter a number?'))
 // for (let a = 0; a < n; a++) {console.log(a)}
