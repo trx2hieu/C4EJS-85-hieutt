@@ -60,53 +60,53 @@
 
 
 // console.log('Ex5');
-const product = {
-    Xiaomi: {
+const product = [
+    {
         name: 'Xiaomi portable charger 20000mah',
         brand: 'Xiaomi',
         price: '428',
         color: 'white',
         category: 'Charger'
     },
-    VSmart: {
+    {
         name: 'VSmart Active 1',
         brand: 'VSmart',
         price: '5487',
         color: 'Black',
         category: 'Phone'
     },
-    IPhone: {
+    {
         name: 'IPhone X',
         brand: 'Apple',
         price: '21490',
         color: 'Gray',
         category: 'Phone'
     },
-    Samsung: {
+    {
         name: 'Samsung Galaxy A9',
         brand: 'Samsung',
         price: '8490',
         color: 'Blue',
         category: 'Phone'
     }
-}
-const { Xiaomi, VSmart, IPhone, Samsung } = product;
-for (let i in product) {
-    console.log("Name : " + i);
-    console.log("Price : " + i);
-    console.log("--------------");
-}  //5.1
+]
+// const [{name,brand,price,color,category}] = product;
 // for (let i = 0; i <= product.length; i++) {
-
-//     console.log('#' + i++ + ' .Name :' + name[i]);
-//     console.log('    Price : '+ price[i]);
+//         console.log('Name: '+ product[i].name);
+//         console.log('Price: '+ product[i].price);
+//         console.log('------------------------------');
+// };
+ //5.1
+//  for (let i = 1; i <= product.length; i++) {
+//     console.log('#' + i++ + '. ' + product[i].name);
+//     console.log('    Price: '+ product[i].price);
 //     console.log('------------------------------');
 // };
 // let userinput = Number(prompt('Enter product position: '));
 // if (userinput <= product.length) {
-//     console.log();
-//     console.log(product[userinput--]);
+//     userinput--;
+//     console.clear();
+//     console.log(`Name: ${product[userinput].name} \nBrand: ${product[userinput].brand} \nPrice: ${product[userinput].price} \nColor: ${product[userinput].color} \nCategory: ${product[userinput].category}`);
 // } else {
 //     alert('Please try again');
 // }
-
