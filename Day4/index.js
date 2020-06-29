@@ -75,14 +75,14 @@ const product = {
         color: 'Black',
         category: 'Phone'
     },
-   IPhone: {
+    IPhone: {
         name: 'IPhone X',
         brand: 'Apple',
         price: '21490',
         color: 'Gray',
         category: 'Phone'
     },
-   Samsung: {
+    Samsung: {
         name: 'Samsung Galaxy A9',
         brand: 'Samsung',
         price: '8490',
@@ -90,14 +90,14 @@ const product = {
         category: 'Phone'
     }
 }
-const {Xiaomi, VSmart, IPhone, Samsung} = product;
+const { Xiaomi, VSmart, IPhone, Samsung } = product;
 for (let i in product) {
     console.log("Name : " + i);
-    console.log("Price : " + i);  
+    console.log("Price : " + i);
     console.log("--------------");
 }  //5.1
 // for (let i = 0; i <= product.length; i++) {
-            
+
 //     console.log('#' + i++ + ' .Name :' + name[i]);
 //     console.log('    Price : '+ price[i]);
 //     console.log('------------------------------');
