@@ -60,53 +60,84 @@
 
 
 // console.log('Ex5');
-const product = [
-    {
-        name: 'Xiaomi portable charger 20000mah',
-        brand: 'Xiaomi',
-        price: '428',
-        color: 'white',
-        category: 'Charger'
-    },
-    {
-        name: 'VSmart Active 1',
-        brand: 'VSmart',
-        price: '5487',
-        color: 'Black',
-        category: 'Phone'
-    },
-    {
-        name: 'IPhone X',
-        brand: 'Apple',
-        price: '21490',
-        color: 'Gray',
-        category: 'Phone'
-    },
-    {
-        name: 'Samsung Galaxy A9',
-        brand: 'Samsung',
-        price: '8490',
-        color: 'Blue',
-        category: 'Phone'
-    }
-]
-// const [{name,brand,price,color,category}] = product;
-// for (let i = 0; i <= product.length; i++) {
-//         console.log('Name: '+ product[i].name);
-//         console.log('Price: '+ product[i].price);
-//         console.log('------------------------------');
-// };
- //5.1
-//  for (let i = 1; i <= product.length; i++) {
-//     console.log('#' + i++ + '. ' + product[i].name);
-//     console.log('    Price: '+ product[i].price);
+// const products = [
+//     {
+//         name: 'Xiaomi portable charger 20000mah',
+//         brand: 'Xiaomi',
+//         price: '428',
+//         color: 'white',
+//         category: 'Charger'
+//     },
+//     {
+//         name: 'VSmart Active 1',
+//         brand: 'VSmart',
+//         price: '5487',
+//         color: 'Black',
+//         category: 'Phone'
+//     },
+//     {
+//         name: 'IPhone X',
+//         brand: 'Apple',
+//         price: '21490',
+//         color: 'Gray',
+//         category: 'Phone'
+//     },
+//     {
+//         name: 'Samsung Galaxy A9',
+//         brand: 'Samsung',
+//         price: '8490',
+//         color: 'Blue',
+//         category: 'Phone'
+//     }
+// ]
+// const [{name,brand,price,color,category}] = products;
+
+
+// for (let product of products) {
+//     console.log(`#${index++}. ${product.name}\n    Price: ${product.price}`);
 //     console.log('------------------------------');
 // };
-// let userinput = Number(prompt('Enter product position: '));
-// if (userinput <= product.length) {
-//     userinput--;
+
+
+// let index = 1
+// for (let product of products) {
+//     console.log(`#${index++}. ${product.name}\n    Price: ${product.price}`);
+//     console.log('------------------------------');
+// };
+// let userInput = Number(prompt('Enter product position: '));
+// if (userInput <= product.length) {
+//     userInput--;
 //     console.clear();
 //     console.log(`Name: ${product[userinput].name} \nBrand: ${product[userinput].brand} \nPrice: ${product[userinput].price} \nColor: ${product[userinput].color} \nCategory: ${product[userinput].category}`);
 // } else {
 //     alert('Please try again');
 // }
+
+
+// let userCategory = prompt('Enter your category');
+// for (let product of products) {
+//     if (userCategory.toLowerCase() === product.category.toLowerCase()) {
+//         console.log(`Name: ${product.name} \nPrice: ${product.price`}
+//         console.log('--------------------------------');
+//     };
+// };
+
+
+// products[0].providers = ['Phukienzero', 'Dientuccc'];
+// products[1].providers = ['Tgdd', 'Ddghn', 'VhStore'];
+// products[2].providers = ['Tgdd'];
+// products[3].providers = ['Tgdd'];
+// let index = 1;
+// for(let product of products) {
+//     console.log(`#${index++}. ${product.name}\n    Price: ${product.name}\n    Provider: ${product.name}`);
+// }
+
+// let userProvider = prompt('Enter your Provider');
+// for (let product of products) {
+//     for (let provider of product.providers) {
+//         if (userProvider.toLowerCase() === provider.toLowerCase()) {
+//             console.log(`Name: ${product.name} \nBrand: ${product.brand} \nPrice: ${product.price} \nColor: ${product.color} \nCategory: ${product.category}\nProvider: ${product.providers}`);
+//             console.log('--------------------------------');
+//         };
+//     }
+// };
