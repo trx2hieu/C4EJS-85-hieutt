@@ -121,14 +121,14 @@
 // let b = '1';
 // for (let x = 0; x<(8/2); x++) {console.log(a) + console.log(b)}
 // d/
-let a = '0';
-let b = '1';
-let n = Number(prompt('Enter a number '))
-for (let x = 0; x <Math.floor(n/2); x++) 
-{
-    console.log(a)
-    console.log(b)
-}
+// let a = '0';
+// let b = '1';
+// let n = Number(prompt('Enter a number '))
+// for (let x = 0; x <Math.floor(n/2); x++) 
+// {
+//     console.log(a)
+//     console.log(b)
+// }
 
 // Ex10
 // let a = Number(prompt('Your weight in kg'))
